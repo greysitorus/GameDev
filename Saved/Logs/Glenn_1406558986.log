@@ -1,0 +1,328 @@
+﻿Log file open, 09/06/17 16:32:29
+LogInit:Display: Running engine for game: Glenn_1406558986
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-426846178) SRandInit(-426846178).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087668
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.06-09.32.30:448][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-09.32.30:448][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.06-09.32.30:459][  0]LogInit: Computer: CSLAB-2601-27-1
+[2017.09.06-09.32.30:459][  0]LogInit: User: glennreynaldi
+[2017.09.06-09.32.30:459][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.06-09.32.30:459][  0]LogInit: High frequency timer resolution =3.117832 MHz
+[2017.09.06-09.32.30:459][  0]LogMemory: Memory total: Physical=9.9GB (10GB approx)
+[2017.09.06-09.32.30:459][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.06-09.32.30:459][  0]LogMemory: Process Physical Memory: 273.84 MB used, 273.84 MB peak
+[2017.09.06-09.32.30:459][  0]LogMemory: Process Virtual Memory: 261.27 MB used, 261.27 MB peak
+[2017.09.06-09.32.30:459][  0]LogMemory: Physical Memory: 4752.04 MB used,  5388.10 MB free, 10140.14 MB total
+[2017.09.06-09.32.30:459][  0]LogMemory: Virtual Memory: 620.64 MB used,  5388.10 MB free, 8388608.00 MB total
+[2017.09.06-09.32.30:530][  0]LogInit: Using OS detected language (en-US).
+[2017.09.06-09.32.30:530][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.06-09.32.30:533][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.06-09.32.31:451][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.06-09.32.31:485][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.09.06-09.32.31:485][  0]LogD3D11RHI:       1993/0/4814 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.06-09.32.31:508][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.09.06-09.32.31:508][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.06-09.32.31:508][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.06-09.32.31:516][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.06-09.32.31:516][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.06-09.32.31:516][  0]LogWindows: EnumDisplayDevices:
+[2017.09.06-09.32.31:516][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.09.06-09.32.31:516][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.09.06-09.32.31:517][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.09.06-09.32.31:517][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.09.06-09.32.31:517][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.06-09.32.31:517][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.06-09.32.31:517][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.06-09.32.31:518][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.06-09.32.31:518][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.06-09.32.31:518][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.06-09.32.31:518][  0]LogWindows:    10. 'PCI GDIHOOK5' (P:0 D:0)
+[2017.09.06-09.32.31:518][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.06-09.32.31:518][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.09.06-09.32.31:518][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.09.06-09.32.31:518][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.09.06-09.32.31:518][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.06-09.32.31:530][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.06-09.32.31:545][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.06-09.32.31:546][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Intermediate/Shaders/WorkingDirectory/6824/).
+[2017.09.06-09.32.31:547][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/glenn.reynaldi/AppData/Local/Temp/UnrealShaderWorkingDir/F8664B834702BE1411E576A8745109E8/'.
+[2017.09.06-09.32.31:547][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.06-09.32.32:621][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.06-09.32.32:676][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.06-09.32.32:729][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.06-09.32.32:783][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.06-09.32.32:837][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.06-09.32.32:890][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.06-09.32.32:943][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.06-09.32.32:998][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.06-09.32.33:045][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.06-09.32.33:097][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.06-09.32.33:149][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.06-09.32.33:201][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.06-09.32.33:253][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.06-09.32.33:305][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.06-09.32.33:359][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.06-09.32.33:466][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.06-09.32.33:466][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.06-09.32.33:508][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.06-09.32.33:601][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.06-09.32.33:629][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.06-09.32.33:681][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.06-09.32.33:732][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.06-09.32.33:785][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.06-09.32.33:836][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.06-09.32.33:836][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.06-09.32.34:305][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.06-09.32.34:411][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/glenn.reynaldi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.06-09.32.34:411][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/glenn.reynaldi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.06-09.32.34:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.06-09.32.34:411][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.06-09.32.34:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.06-09.32.34:411][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.06-09.32.34:431][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.06-09.32.34:443][  0]LogDerivedDataCache: Using Local data cache path C:/Users/glenn.reynaldi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.06-09.32.34:453][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.06-09.32.34:453][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.06-09.32.34:454][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-09.32.34:454][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-09.32.34:832][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-09.32.34:836][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.06-09.32.35:075][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.06-09.32.35:123][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.06-09.32.35:171][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.06-09.32.35:171][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.06-09.32.35:171][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.06-09.32.35:691][  0]LogNetVersion: Glenn_1406558986 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4012420054)
+[2017.09.06-09.32.35:749][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.09.06-09.32.35:803][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.034368 seconds
+[2017.09.06-09.32.35:809][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.06-09.32.35:809][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.06-09.32.35:809][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.06-09.32.35:866][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.06-09.32.38:309][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.06-09.32.38:443][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.06-09.32.38:975][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.06-09.32.39:389][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.32.39:438][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.32.39:486][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.32.39:534][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.32.40:190][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.06-09.32.40:790][  0]LogEngine: Initializing Engine...
+[2017.09.06-09.32.40:791][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.06-09.32.41:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.06-09.32.41:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.06-09.32.41:179][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.06-09.32.41:195][  0]LogInit: No audio devices found!
+[2017.09.06-09.32.41:279][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/glenn.reynaldi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.06-09.32.41:301][  0]LogInit: Texture streaming: Enabled
+[2017.09.06-09.32.41:389][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.06-09.32.41:614][  0]LogInit: Transaction tracking system initialized
+[2017.09.06-09.32.41:935][  0]BlueprintLog: New page: Editor Load
+[2017.09.06-09.32.42:817][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2017.09.06-09.32.43:196][  0]LocalizationService: Info Localization service is disabled
+[2017.09.06-09.32.43:979][  0]LogConsoleResponse:Display: 
+[2017.09.06-09.32.44:178][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.06-09.32.44:178][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.06-09.32.44:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/' took 0.01s
+[2017.09.06-09.32.45:208][  0]SourceControl: Info Source control is disabled
+[2017.09.06-09.32.45:208][  0]Cmd: MAP LOAD FILE="../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-09.32.45:209][  0]LightingResults: New page: Lighting Build
+[2017.09.06-09.32.45:252][  0]MapCheck: New page: Map Check
+[2017.09.06-09.32.45:252][  0]LightingResults: New page: Lighting Build
+[2017.09.06-09.32.46:350][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.09.06-09.32.46:405][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-09.32.46:472][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-09.32.46:532][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.919ms to complete.
+[2017.09.06-09.32.46:532][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.324
+[2017.09.06-09.32.48:079][  0]LogCollectionManager: Loaded 0 collections in 0.001565 seconds
+[2017.09.06-09.32.49:385][  0]LogFileCache: Scanning file cache for directory 'C:/Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Collections/' took 0.01s
+[2017.09.06-09.32.49:385][  0]LogFileCache: Scanning file cache for directory 'C:/Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/Developers/glennreynaldi/Collections/' took 0.01s
+[2017.09.06-09.32.49:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/Collections/' took 0.01s
+[2017.09.06-09.32.49:386][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.09.06-09.32.49:495][  0]LogContentBrowser: Native class hierarchy populated in 0.0738 seconds. Added 2329 classes and 491 folders.
+[2017.09.06-09.32.49:738][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.06-09.32.49:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.06-09.32.49:902][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.06-09.32.51:119][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.06-09.32.51:404][  0]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-09.32.51:411][  0]LogSlate: Took 0.000567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.06-09.32.51:857][  0]LogSlate: Took 0.276851 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.06-09.32.52:970][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:1).
+[2017.09.06-09.32.55:804][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.06-09.32.55:804][  0]LogLoad: (Engine Initialization) Total time: 26.94 seconds
+[2017.09.06-09.32.55:804][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.09.06-09.32.55:804][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.06-09.32.55:804][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.06-09.32.55:887][  0]LogOcInput: OculusInput pre-init called
+[2017.09.06-09.32.55:887][  0]LogHMD: Starting GearVRController plugin
+[2017.09.06-09.32.55:961][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.06-09.32.56:047][  0]LogSlate: Took 0.000631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-09.32.56:272][  1]LogAssetRegistry: Asset discovery search completed in 20.5434 seconds
+[2017.09.06-09.32.56:274][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.06-09.32.56:274][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.09.06-09.34.56:113][756]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.09.06-09.35.07:038][317]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.09.06-09.35.15:400][287]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.09.06-09.39.53:956][416]LogSlate: Took 0.009958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-09.39.54:011][416]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Public\Pictures\Sample Pictures\Penguins.jpg)
+[2017.09.06-09.39.54:154][416]LogTexture:Display: Building textures: Penguins (AutoDXT, 1024X768)
+[2017.09.06-09.42.47:842][ 23]LogSlate: Took 0.000691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-09.42.57:105][ 50]LogSavePackage: Save=167.56ms
+[2017.09.06-09.42.57:105][ 50]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/2DSideScrollerExampleMap_Auto12DF19D25490D45EC487C2CAB865B5BFF.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2017.09.06-09.42.57:107][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2017.09.06-09.42.57:112][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.227
+[2017.09.06-09.42.57:112][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.227
+[2017.09.06-09.42.57:119][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Penguins] ([1] browsable assets)...
+[2017.09.06-09.42.57:126][ 50]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Penguins.Penguins]
+[2017.09.06-09.42.57:126][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Penguins]
+[2017.09.06-09.42.57:173][ 50]LogSavePackage: Save=44.82ms
+[2017.09.06-09.42.57:173][ 50]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Penguins_Auto1F52B21A2446E2E5657AA98942B591C75.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Penguins_Auto1.uasset'
+[2017.09.06-09.42.57:174][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Penguins_Auto1.uasset
+[2017.09.06-09.42.57:175][ 50]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.09.06-09.44.00:385][381]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\glenn.reynaldi\Downloads\Stuff Tiles Sprites.png)
+[2017.09.06-09.44.00:446][381]LogTexture:Display: Building textures: Stuff_Tiles_Sprites (AutoDXT, 444X512)
+[2017.09.06-09.44.03:666][537]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.06-09.44.38:631][240]LogSavePackage: Save=51.89ms
+[2017.09.06-09.44.38:631][240]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Stuff_Tiles_Sprites5402BABA483C6B82F959458CA0FA3671.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Stuff_Tiles_Sprites.uasset'
+[2017.09.06-09.44.38:634][240]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Stuff_Tiles_Sprites.uasset
+[2017.09.06-09.46.29:138][170]LogSavePackage: Save=6.68ms
+[2017.09.06-09.46.29:138][170]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/GlennTileSet7A39CDA947E6DF26519625BC23D91E52.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/GlennTileSet.uasset'
+[2017.09.06-09.46.29:144][170]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/GlennTileSet.uasset
+[2017.09.06-09.46.32:936][409]LogSlate: Took 0.020787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.06-09.52.58:450][321]LogSavePackage: Save=89.15ms
+[2017.09.06-09.52.58:450][321]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/2DSideScrollerExampleMap_Auto2CC64064A4897BC45721C3AB1DA6AA44A.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2017.09.06-09.52.58:451][321]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
+[2017.09.06-09.52.58:453][321]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.114
+[2017.09.06-09.52.58:453][321]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2017.09.06-09.52.58:455][321]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet] ([1] browsable assets)...
+[2017.09.06-09.52.58:465][321]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet.Stuff_Tiles_Sprites_TileSet]
+[2017.09.06-09.52.58:465][321]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet]
+[2017.09.06-09.52.58:495][321]LogSavePackage: Save=28.03ms
+[2017.09.06-09.52.58:495][321]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Stuff_Tiles_Sprites_TileSet_Auto2FA36206D408425819197588E7B69AE44.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet_Auto2.uasset'
+[2017.09.06-09.52.58:496][321]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet_Auto2.uasset
+[2017.09.06-09.52.58:496][321]LogFileHelpers: Auto-saving content packages took 0.042
+[2017.09.06-10.02.30:294][748]LogSavePackage: Save=32.17ms
+[2017.09.06-10.02.30:294][748]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Stuff_Tiles_Sprites_TileSetAD521DC2491A93D072360084C4BB476E.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet.uasset'
+[2017.09.06-10.02.30:300][748]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet.uasset
+[2017.09.06-10.03.35:080][164]LogSavePackage: Save=29.39ms
+[2017.09.06-10.03.35:080][164]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Stuff_Tiles_Sprites_TileSet6FEC0E294C2514DD9166DA930FB6F0FB.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet.uasset'
+[2017.09.06-10.03.35:083][164]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Stuff_Tiles_Sprites_TileSet.uasset
+[2017.09.06-10.04.32:953][536]LogRenderer: Reallocating scene render targets to support 856x612 NumSamples 1 (Frame:1).
+[2017.09.06-10.08.05:665][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.019
+[2017.09.06-10.08.05:666][651]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/GlennTileMap] ([1] browsable assets)...
+[2017.09.06-10.08.05:666][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/GlennTileMap]
+[2017.09.06-10.08.05:686][651]LogSavePackage: Save=17.85ms
+[2017.09.06-10.08.05:686][651]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/GlennTileMap_Auto3933567BF4623C16988382D8DA0220CF2.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/GlennTileMap_Auto3.uasset'
+[2017.09.06-10.08.05:687][651]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/GlennTileMap_Auto3.uasset
+[2017.09.06-10.08.05:687][651]LogFileHelpers: Auto-saving content packages took 0.022
+[2017.09.06-10.09.12:613][270]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\glenn.reynaldi\Downloads\mario_bros_nes_sprite_sheet.png)
+[2017.09.06-10.09.12:645][270]LogTexture:Display: Building textures: mario_bros_nes_sprite_sheet (BGRA8, 436X673)
+[2017.09.06-10.15.01:431][774]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\glenn.reynaldi\Downloads\overworld-icons-3.png)
+[2017.09.06-10.15.01:457][774]LogTexture:Display: Building textures: overworld-icons-3 (AutoDXT, 336X656)
+[2017.09.06-10.17.56:662][731]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.06-10.18.33:572][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.019
+[2017.09.06-10.18.33:575][ 29]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/GlennTileMap] ([1] browsable assets)...
+[2017.09.06-10.18.33:575][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/GlennTileMap]
+[2017.09.06-10.18.33:600][ 29]LogSavePackage: Save=19.84ms
+[2017.09.06-10.18.33:600][ 29]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/GlennTileMap_Auto4F8B0811F47108D3820204484EFDB4DDF.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/GlennTileMap_Auto4.uasset'
+[2017.09.06-10.18.33:601][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/GlennTileMap_Auto4.uasset
+[2017.09.06-10.18.33:601][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet] ([1] browsable assets)...
+[2017.09.06-10.18.33:606][ 29]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet.mario_bros_nes_sprite_sheet]
+[2017.09.06-10.18.33:606][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet]
+[2017.09.06-10.18.33:617][ 29]LogSavePackage: Save=8.58ms
+[2017.09.06-10.18.33:617][ 29]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/mario_bros_nes_sprite_sheet_Auto4F3BEC5794CDE18DD9E68C5B1AB47268B.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_Auto4.uasset'
+[2017.09.06-10.18.33:617][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_Auto4.uasset
+[2017.09.06-10.18.33:618][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_TileSet] ([1] browsable assets)...
+[2017.09.06-10.18.33:626][ 29]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_TileSet.mario_bros_nes_sprite_sheet_TileSet]
+[2017.09.06-10.18.33:626][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_TileSet]
+[2017.09.06-10.18.33:673][ 29]LogSavePackage: Save=31.09ms
+[2017.09.06-10.18.33:673][ 29]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/mario_bros_nes_sprite_sheet_TileSet_Auto41D5C505C4B62476F680F0EBE5B560C40.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_TileSet_Auto4.uasset'
+[2017.09.06-10.18.33:674][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/mario_bros_nes_sprite_sheet_TileSet_Auto4.uasset
+[2017.09.06-10.18.33:674][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/overworld-icons-3] ([1] browsable assets)...
+[2017.09.06-10.18.33:680][ 29]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/overworld-icons-3.overworld-icons-3]
+[2017.09.06-10.18.33:680][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/overworld-icons-3]
+[2017.09.06-10.18.33:692][ 29]LogSavePackage: Save=9.94ms
+[2017.09.06-10.18.33:692][ 29]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/overworld-icons-3_Auto4A52BD7B44EB31AAC2BFBB19371403CDA.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/overworld-icons-3_Auto4.uasset'
+[2017.09.06-10.18.33:692][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/overworld-icons-3_Auto4.uasset
+[2017.09.06-10.18.33:693][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Overworld_Tileset] ([1] browsable assets)...
+[2017.09.06-10.18.33:698][ 29]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/Overworld_Tileset.Overworld_Tileset]
+[2017.09.06-10.18.33:698][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Overworld_Tileset]
+[2017.09.06-10.18.33:707][ 29]LogSavePackage: Save=6.81ms
+[2017.09.06-10.18.33:707][ 29]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Overworld_Tileset_Auto4BE8265C84097F16DD9F034BA1B4B14F4.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Overworld_Tileset_Auto4.uasset'
+[2017.09.06-10.18.33:708][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Overworld_Tileset_Auto4.uasset
+[2017.09.06-10.18.33:708][ 29]LogFileHelpers: Auto-saving content packages took 0.134
+[2017.09.06-10.19.32:541][529]LogSavePackage: Save=77.76ms
+[2017.09.06-10.19.32:541][529]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/overworld-icons-3_TileSet6C35979E41380C43C2BA518D03B9704E.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/overworld-icons-3_TileSet.uasset'
+[2017.09.06-10.19.32:548][529]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/overworld-icons-3_TileSet.uasset
+[2017.09.06-10.25.45:961][118]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\glenn.reynaldi\Downloads\Spritesheet-20170906T094834Z-001\spritesheet-32x-clean.png)
+[2017.09.06-10.25.46:027][118]LogTexture:Display: Building textures: spritesheet-32x-clean (BGRA8, 1054X1054)
+[2017.09.06-10.27.34:915][264]LogSavePackage: Save=84.21ms
+[2017.09.06-10.27.34:915][264]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/spritesheet-32x-clean_TileSetA9F846CA4381F17EE5F09BB4A9E18718.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset'
+[2017.09.06-10.27.34:918][264]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/spritesheet-32x-clean_TileSet.uasset
+[2017.09.06-10.35.26:975][430]LogSavePackage: Save=13.21ms
+[2017.09.06-10.35.26:975][430]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Tutorial1TilemapC3E8E7D747958B81B5C148B007BB8DC3.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Tutorial1Tilemap.uasset'
+[2017.09.06-10.35.26:978][430]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Tutorial1Tilemap.uasset
+[2017.09.06-10.36.42:704][ 22]LogSavePackage: Save=16.78ms
+[2017.09.06-10.36.42:704][ 22]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Tutorial1TilemapFA4B2B9D4840CF9B15B652B5806B1D1F.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Tutorial1Tilemap.uasset'
+[2017.09.06-10.36.42:707][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Content/2DSideScrollerBP/Tutorial1Tilemap.uasset
+[2017.09.06-10.37.22:620][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.027
+[2017.09.06-10.37.22:622][ 88]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Overworld_Tilemap] ([1] browsable assets)...
+[2017.09.06-10.37.22:622][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Overworld_Tilemap]
+[2017.09.06-10.37.22:647][ 88]LogSavePackage: Save=20.81ms
+[2017.09.06-10.37.22:647][ 88]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Overworld_Tilemap_Auto52C44559247627AE698BD7198C002E711.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Overworld_Tilemap_Auto5.uasset'
+[2017.09.06-10.37.22:648][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/Overworld_Tilemap_Auto5.uasset
+[2017.09.06-10.37.22:648][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/spritesheet-32x-clean] ([1] browsable assets)...
+[2017.09.06-10.37.22:658][ 88]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/spritesheet-32x-clean.spritesheet-32x-clean]
+[2017.09.06-10.37.22:658][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/spritesheet-32x-clean]
+[2017.09.06-10.37.22:674][ 88]LogSavePackage: Save=13.65ms
+[2017.09.06-10.37.22:674][ 88]LogSavePackage: Moving '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/spritesheet-32x-clean_Auto51A77566E48AF6FE02DEEC48CD95450F9.tmp' to '../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/spritesheet-32x-clean_Auto5.uasset'
+[2017.09.06-10.37.22:675][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../Users/glenn.reynaldi/Documents/Unreal Projects/Glenn_1406558986/Saved/Autosaves/Game/2DSideScrollerBP/spritesheet-32x-clean_Auto5.uasset
+[2017.09.06-10.37.22:675][ 88]LogFileHelpers: Auto-saving content packages took 0.054
